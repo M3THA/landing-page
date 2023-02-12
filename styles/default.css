@@ -1,0 +1,21 @@
+#welcome-section{
+    height: 100vh;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+@media (min-width:768px){
+    #navbar {
+        display: flex;
+    }
+}
